@@ -15,5 +15,5 @@
         <artifactId>chapter10-recipe1</artifactId>
 	<packaging>pom</packaging>
 
-        <name>Chapter 10 :: Recipe 1</name>	
+        <name>Chapter 10 :: Recipe 1 :: Customizing SSH</name>	
 </project>
