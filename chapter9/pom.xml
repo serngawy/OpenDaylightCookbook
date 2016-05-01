@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.packt</groupId>
+    <artifactId>opendaylight-cookbook</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>chapter9</artifactId>
+  <packaging>pom</packaging>
+  <name>Chapter 9 :: OpenDaylight Fundamentals</name>
+
+  <modules>
+  	<module>chapter9-recipe1</module>
+  	<module>chapter9-recipe2</module>
+  	<module>chapter9-recipe3</module>
+  	<module>chapter9-recipe4</module>
+  	<module>chapter9-recipe5</module> 
+        <module>chapter9-recipe6</module>
+        <module>chapter9-recipe7</module>
+        <module>chapter9-recipe8</module>
+        <module>chapter9-recipe9</module>
+        <module>chapter9-recipe10</module>
+        <module>chapter9-recipe11</module>
+        <module>chapter9-recipe12</module>
+  </modules>
+</project>
