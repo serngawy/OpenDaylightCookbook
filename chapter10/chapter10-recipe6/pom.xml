@@ -15,6 +15,10 @@
 
     <artifactId>opendaylight-command</artifactId>
     <packaging>pom</packaging>
-    <name>Chapter 10 :: Recipe 6 :: Custom Console Command</name>
+    <name>Chapter 10 :: Recipe 6 :: Custom Command Parent</name>
+
+    <modules>
+        <module>command</module>
+    </modules>
 
 </project>
