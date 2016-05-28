@@ -17,4 +17,11 @@
     <packaging>pom</packaging>
     <name>Chapter 10 :: Recipe 7 :: Feature Descriptor</name>
 
+    <modules>
+      <module>moduleA</module>
+      <module>moduleB</module>
+      <!-- Keep features for last -->
+      <module>feature</module>
+    </modules>
+
 </project>
