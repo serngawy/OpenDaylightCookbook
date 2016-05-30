@@ -13,7 +13,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>opendaylight-repos</artifactId>
+    <artifactId>chapter10-recipe3</artifactId>
     <packaging>pom</packaging>
     <name>Chapter 10 :: Recipe 3 :: Custom Repositories</name>
 

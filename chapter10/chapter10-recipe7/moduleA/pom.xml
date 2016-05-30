@@ -8,7 +8,7 @@
 
     <parent>
         <groupId>com.packt</groupId>
-        <artifactId>opendaylight-feature</artifactId>
+        <artifactId>chapter10-recipe7</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 

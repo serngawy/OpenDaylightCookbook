@@ -13,7 +13,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>opendaylight-startup</artifactId>
+    <artifactId>chapter10-recipe4</artifactId>
     <packaging>pom</packaging>
     <name>Chapter 10 :: Recipe 4 :: Custom Startup Applications</name>
 

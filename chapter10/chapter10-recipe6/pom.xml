@@ -13,7 +13,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>opendaylight-command</artifactId>
+    <artifactId>chapter10-recipe6</artifactId>
     <packaging>pom</packaging>
     <name>Chapter 10 :: Recipe 6 :: Custom Command Parent</name>
 

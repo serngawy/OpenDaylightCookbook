@@ -13,7 +13,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>opendaylight-service</artifactId>
+    <artifactId>chapter10-recipe5</artifactId>
     <packaging>pom</packaging>
     <name>Chapter 10 :: Recipe 5 :: Install as a System Service</name>
 

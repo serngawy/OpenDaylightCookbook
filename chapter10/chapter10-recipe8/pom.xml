@@ -13,7 +13,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>opendaylight-jmx</artifactId>
+    <artifactId>chapter10-recipe8</artifactId>
     <packaging>pom</packaging>
     <name>Chapter 10 :: Recipe 8 :: JMX Management</name>
 

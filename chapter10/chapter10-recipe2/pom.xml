@@ -13,7 +13,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>opendaylight-rebranding</artifactId>
+    <artifactId>chapter10-recipe2</artifactId>
     <packaging>bundle</packaging>
     <name>Chapter 10 :: Recipe 2 :: Custom Branding</name>
 

@@ -13,7 +13,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>opendaylight-feature</artifactId>
+    <artifactId>chapter10-recipe7</artifactId>
     <packaging>pom</packaging>
     <name>Chapter 10 :: Recipe 7 :: Feature Descriptor</name>
 
