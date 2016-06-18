@@ -1,0 +1,55 @@
+{
+	"id": "d99f39d8-4468-2913-eae5-6f942d16129b",
+	"name": "DIDM",
+	"description": "",
+	"order": [
+		"8925cb83-23a0-c9d3-07c3-8ff913365d76",
+		"3b8b838b-db18-0f6e-a2b7-dbd541b15356"
+	],
+	"folders": [],
+	"timestamp": 1466010011870,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "3b8b838b-db18-0f6e-a2b7-dbd541b15356",
+			"headers": "Authorization: Basic YWRtaW46YWRtaW4=\n",
+			"url": "http://localhost:8181/restconf/operational/opendaylight-inventory:nodes",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1466010072953,
+			"name": "Get Network",
+			"description": "",
+			"collectionId": "d99f39d8-4468-2913-eae5-6f942d16129b",
+			"responses": []
+		},
+		{
+			"id": "8925cb83-23a0-c9d3-07c3-8ff913365d76",
+			"headers": "Authorization: Basic YWRtaW46YWRtaW4=\n",
+			"url": "http://localhost:8181/restconf/config/didm-device-types:device-types/device-type-info/mininet",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d99f39d8-4468-2913-eae5-6f942d16129b",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Mininet Type",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1466010584074,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

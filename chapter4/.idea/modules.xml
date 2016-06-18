@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe1/chapter-recipe (1).iml" filepath="$PROJECT_DIR$/chapter4-recipe1/chapter-recipe (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe9/chapter-recipe (10).iml" filepath="$PROJECT_DIR$/chapter4-recipe9/chapter-recipe (10).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe10/chapter-recipe (2).iml" filepath="$PROJECT_DIR$/chapter4-recipe10/chapter-recipe (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe2/chapter-recipe (3).iml" filepath="$PROJECT_DIR$/chapter4-recipe2/chapter-recipe (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe3/chapter-recipe (4).iml" filepath="$PROJECT_DIR$/chapter4-recipe3/chapter-recipe (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe4/chapter-recipe (5).iml" filepath="$PROJECT_DIR$/chapter4-recipe4/chapter-recipe (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe5/chapter-recipe (6).iml" filepath="$PROJECT_DIR$/chapter4-recipe5/chapter-recipe (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe6/chapter-recipe (7).iml" filepath="$PROJECT_DIR$/chapter4-recipe6/chapter-recipe (7).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe7/chapter-recipe (8).iml" filepath="$PROJECT_DIR$/chapter4-recipe7/chapter-recipe (8).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4-recipe8/chapter-recipe (9).iml" filepath="$PROJECT_DIR$/chapter4-recipe8/chapter-recipe (9).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4.iml" filepath="$PROJECT_DIR$/chapter4.iml" />
+    </modules>
+  </component>
+</project>
