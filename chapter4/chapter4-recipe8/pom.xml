@@ -14,6 +14,6 @@
 
     <artifactId>chapter-recipe8</artifactId>
     <packaging>pom</packaging>
-    <name>Chapter 4 :: Recipe 8 :: Using Opendaylight as SDN controller server</name>
+    <name>Chapter 4 :: Recipe 8 :: Opendaylight managing SXP capable devices</name>
 
 </project>

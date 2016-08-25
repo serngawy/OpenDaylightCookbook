@@ -14,6 +14,6 @@
 
     <artifactId>chapter-recipe6</artifactId>
     <packaging>pom</packaging>
-    <name>Chapter 4 :: Recipe 6 :: Provides VPC (Virtual Private Cloud) services for enterprise</name>
+    <name>Chapter 4 :: Recipe 6 :: Secure Network Bootstrapping Infrastructure</name>
 
 </project>

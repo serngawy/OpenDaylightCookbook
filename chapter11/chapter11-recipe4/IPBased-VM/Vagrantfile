@@ -1,0 +1,50 @@
+# -*- mode: ODL -*-
+
+$init = <<SCRIPT
+  aptitude update
+  aptitude install -y build-essential fakeroot debhelper autoconf automake libssl-dev graphviz \
+  python-all python-qt4 python-twisted-conch libtool vim ant python-sphinx python-dev libxml2-dev \
+  libxslt1-dev zlib1g-dev apache2
+SCRIPT
+
+$install_java = <<SCRIPT
+apt-get install software-properties-common -y
+add-apt-repository ppa:openjdk-r/ppa -y
+apt-get update
+apt-get install openjdk-8-jdk -y
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:\$JAVA_HOME/bin
+SCRIPT
+
+$download_odl = <<SCRIPT
+wget https://nexus.opendaylight.org/content/groups/public/org/opendaylight/integration/distribution-karaf/0.4.2-Beryllium-SR2/distribution-karaf-0.4.2-Beryllium-SR2.tar.gz
+tar -xvzf distribution-karaf-0.4.2-Beryllium-SR2.tar.gz
+SCRIPT
+
+$cleanup = <<SCRIPT
+  aptitude clean
+  rm -rf /tmp/*
+SCRIPT
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/trusty64"
+
+  config.vm.provider "virtualbox" do |v|
+      v.customize ["modifyvm", :id, "--cpuexecutioncap", "50"]
+      v.customize ["modifyvm", :id, "--memory", "2024"]
+  end
+
+  ## Guest config change the network interface "en0" based on your PC configuration
+  config.vm.hostname = "IPBased-vm"
+  config.vm.network :public_network, bridge: "en0: Ethernet"
+
+  ## Provisioning
+  config.vm.provision :shell, :inline => $init
+  config.vm.provision :shell, :inline => $install_java
+  config.vm.provision :shell, privileged: false, :inline => $download_odl
+  config.vm.provision :shell, :inline => $cleanup
+
+  ## SSH config
+  config.ssh.forward_x11 = false
+
+end

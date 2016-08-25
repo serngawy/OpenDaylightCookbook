@@ -12,8 +12,8 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>chapter-recipe7</artifactId>
+    <artifactId>chapter-recipe9</artifactId>
     <packaging>pom</packaging>
-    <name>Chapter 4 :: Recipe 7 :: Provides VPC (Virtual Private Cloud) services for enterprise</name>
+    <name>Chapter 4 :: Recipe 9 :: Using Opendaylight as SDN controller server</name>
 
 </project>
